@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  .header{
+      border: 10px solid transparent;
+      padding: 10px;
+      /*border-image: url("../images/border.png") 30 stretch;*/
+      /*border-image: url(../images/border.png) 20% round;*/
+      border-image:url(../images/vqgqs64e.png) 30% round;
+      text-align: center;
+      background-image: linear-gradient(to bottom right,rgb(236, 157, 187),rgb(120, 147, 199));
+    }
+    .header h1{
+      color:rgb(0, 125, 156);
+      text-shadow: 1px 1px 2px rgb(43, 43, 41);
+      font-family: 'Sedgwick Ave Display', cursive;
+      letter-spacing: 10px;
+    }
+    .nav{
+      overflow: hidden;
+      background-image: linear-gradient(to bottom right,rgb(104, 141, 175),rgb(137, 221, 148));
+    
+    }
+    .nav a{
+      float: left;
+      display: block;
+      color:rgb(250, 243, 243);
+      text-align: center;
+      text-decoration: none;
+      padding:14px 16px;
+      text-shadow: 1px 1px 2px rgb(120, 70, 124);
+    }
+    .nav a:hover{
+      background-image: linear-gradient(to bottom right,rgb(117, 153, 173),rgb(161, 101, 85));
+      color:rgb(117, 57, 117);
+      border:1px solid rgb(124, 96, 122);
+      border-radius: 5px;
+    }
+    .left-column{
+      float:left;
+      width: 20%;
+      padding:15px;
+      background-color: rgb(219, 141, 180);
+    }
+    .mid-column{
+      float: left;
+      width: 60%;
+      padding:15px;
+      /*background-color: antiquewhite;*/
+    }
+    .right-column{
+      float: left;
+      width: 20%;
+      padding:5px;
+    }
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .footer{
+      text-align: center;
+      background-color: rgb(138, 74, 138);
+      padding:20px;
+    }
+    /* Profile */
+    .profile-img{
+      width: 100%;
+      border-radius: 50%;
+      border: 1px solid rgb(255, 60, 196);
+    }
+    .post{
+      background-color: white;
+      box-shadow: 1px 1px 2px rgb(231, 203, 203);
+      padding:10px;
+    }
